@@ -19,7 +19,7 @@ The U-shaped architecture has emerged as a crucial paradigm in the design of med
 
 ## performance comparison
 
-<img src="imgs/GFLOPs.png" width="260">  <img src="imgs/GFLOPs.png" width="260"> <img src="imgs/GFLOPs.png" width="260">  
+<img src="imgs/GFLOPs.png" width="260">  <img src="imgs/Params.png" width="260"> <img src="imgs/FPS.png" width="260">  
 
 ## Datasets
 
