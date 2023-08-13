@@ -8,9 +8,8 @@ Official Pytorch Code base for "CMUNeXt: An Efficient Medical Image Segmentation
 
 **News** 🥰:
 
-<font color="#dd0000" size="4">**Code is released now !**</font> 
-
-<font color="#dd0000" size="4">**Code will be released soon !**</font> 😘
+- <font color="#dd0000" size="4">**Code is released now !**</font> 
+- <font color="#dd0000" size="4">**Code will be released soon !**</font> 😘
 
 ## Introduction
 The U-shaped architecture has emerged as a crucial paradigm in the design of medical image segmentation networks. However, due to the inherent local limitations of convolution, a fully convolutional segmentation network with U-shaped architecture struggles to effectively extract global context information, which is vital for the precise localization of lesions. While hybrid architectures combining CNNs and Transformers can address these issues, their application in real medical scenarios is limited due to the computational resource constraints imposed by the environment and edge devices. In addition, the convolutional inductive bias in lightweight networks adeptly fits the scarce medical data, which is lacking in the Transformer based network. In order to extract global context information while taking advantage of the inductive bias, we propose CMUNeXt, an efficient fully convolutional lightweight medical image segmentation network, which enables fast and accurate auxiliary diagnosis in real scene scenarios. CMUNeXt leverages large kernel and inverted bottleneck design to thoroughly mix distant spatial and location information, efficiently extracting global context information. We also introduce the Skip-Fusion block, designed to enable smooth skip-connections and ensure ample feature fusion. Experimental results on multiple medical image datasets demonstrate that CMUNeXt outperforms existing heavyweight and lightweight medical image segmentation networks in terms of segmentation performance, while offering a faster inference speed, lighter weights, and a reduced computational cost.
@@ -21,13 +20,13 @@ The U-shaped architecture has emerged as a crucial paradigm in the design of med
 
 ## Performance Comparison
 
-<img src="imgs/GFLOPs.png" width="300">      <img src="imgs/Params.png" width="300">      <img src="imgs/FPS.png" width="300">  
+<img src="imgs/GFLOPs.png" width="260"> <img src="imgs/Params.png" width="260">  <img src="imgs/FPS.png" width="260">   
 
 ## Datasets
 
 Please put the [BUSI](https://www.kaggle.com/aryashah2k/breast-ultrasound-images-dataset) dataset or your own dataset as the following architecture. 
 ```
-├── CMUNeXt
+└── CMUNeXt
     ├── data
         ├── busi
             ├── images
@@ -53,7 +52,7 @@ Please put the [BUSI](https://www.kaggle.com/aryashah2k/breast-ultrasound-images
     ├── network
     ├── utils
     ├── main.py
-    ├── split.py
+    └── split.py
 ```
 ## Environment
 
