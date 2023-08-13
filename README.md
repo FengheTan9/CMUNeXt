@@ -8,6 +8,8 @@ Official Pytorch Code base for "CMUNeXt: An Efficient Medical Image Segmentation
 
 **News** 🥰:
 
+<font color="#dd0000" size="4">**Code is released now !**</font> 
+
 <font color="#dd0000" size="4">**Code will be released soon !**</font> 😘
 
 ## Introduction
@@ -17,9 +19,9 @@ The U-shaped architecture has emerged as a crucial paradigm in the design of med
 
 ![framework](imgs/CMUNeXt.png)
 
-## performance comparison
+## Performance Comparison
 
-<img src="imgs/GFLOPs.png" width="260">  <img src="imgs/Params.png" width="260"> <img src="imgs/FPS.png" width="260">  
+<img src="imgs/GFLOPs.png" width="300">      <img src="imgs/Params.png" width="300">      <img src="imgs/FPS.png" width="300">  
 
 ## Datasets
 
@@ -47,6 +49,11 @@ Please put the [BUSI](https://www.kaggle.com/aryashah2k/breast-ultrasound-images
                 ├── 0
                 |   ├── 0a7e06.png
                 |   ├── ...
+    ├── dataloader
+    ├── network
+    ├── utils
+    ├── main.py
+    ├── split.py
 ```
 ## Environment
 
@@ -57,16 +64,16 @@ Please put the [BUSI](https://www.kaggle.com/aryashah2k/breast-ultrasound-images
 
 ## Training and Validation
 
-You can first spilt your dataset:
+You can first split your dataset:
 
 ```python
-python spilt.py
+python split.py --dataset_name busi --dataset_root ./data
 ```
 
 Then, train and valide your dataset:
 
 ```python
-python main.py --model ["CMUNeXt", "CMUNeXt-S", "CMUNeXt-L"] --base_dir ./data/busi --train_file_dir busi_train.txt --train_val_dir busi_val.txt 
+python main.py --model ["CMUNeXt", "CMUNeXt-S", "CMUNeXt-L"] --base_dir ./data/busi --train_file_dir busi_train.txt --val_file_dir busi_val.txt
 ```
 
 ## Acknowledgements:
@@ -78,6 +85,11 @@ This code-base uses helper functions from [Medical-Image-Segmentation-Benchmarks
 If you use our code, please cite our paper:
 
 ```tex
-TODO
+@article{tang2023cmunext,
+  title={CMUNeXt: An Efficient Medical Image Segmentation Network based on Large Kernel and Skip Fusion},
+  author={Tang, Fenghe and Ding, Jianrui and Wang, Lingtao and Ning, Chunping and Zhou, S Kevin},
+  journal={arXiv preprint arXiv:2308.01239},
+  year={2023}
+}
 ```
 
