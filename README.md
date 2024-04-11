@@ -1,11 +1,11 @@
 # CMUNeXt: An Efficient Medical Image Segmentation Network based on Large Kernel and Skip Fusion
 
-Official pytorch code base for ISBI 2024 Oral paper "CMUNeXt: An Efficient Medical Image Segmentation Network based on Large Kernel and Skip Fusion"
+Official pytorch code base for ISBI 2024 **oral paper** "CMUNeXt: An Efficient Medical Image Segmentation Network based on Large Kernel and Skip Fusion"
 
 [Paper](https://arxiv.org/pdf/2308.01239.pdf) | [Code](https://github.com/FengheTan9/CMUNeXt)
 
 **News** 🥰:
-- <font color="#dd0000" size="4">**CMUNeXt is accepted by ISBI 2024 as Oral presentation !**</font> 🥰
+- <font color="#dd0000" size="4">**CMUNeXt is accepted by ISBI 2024 as oral presentation !**</font> 🥰
 - <font color="#dd0000" size="4">**Paper is accepted by ISBI 2024 !**</font> 🎉
 - <font color="#dd0000" size="4">**Code is released now !**</font> 
 - <font color="#dd0000" size="4">**Code will be released soon !**</font> 😘
