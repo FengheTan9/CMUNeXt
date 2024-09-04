@@ -84,6 +84,19 @@ This code-base uses helper functions from [Medical-Image-Segmentation-Benchmarks
 If you use our code, please cite our paper:
 
 ```tex
+@INPROCEEDINGS{10635609,
+  author={Tang, Fenghe and Ding, Jianrui and Quan, Quan and Wang, Lingtao and Ning, Chunping and Zhou, S. Kevin},
+  booktitle={2024 IEEE International Symposium on Biomedical Imaging (ISBI)}, 
+  title={CMUNEXT: An Efficient Medical Image Segmentation Network Based on Large Kernel and Skip Fusion}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Location awareness;Image segmentation;Convolution;Computer architecture;Transformers;Computational efficiency;Data mining;Medical image segmentation;Lightweight network;Large Kernel;Skip-fusion},
+  doi={10.1109/ISBI56570.2024.10635609}}
+```
+
+```tex
 @article{tang2023cmunext,
   title={CMUNeXt: An Efficient Medical Image Segmentation Network based on Large Kernel and Skip Fusion},
   author={Tang, Fenghe and Ding, Jianrui and Wang, Lingtao and Ning, Chunping and Zhou, S Kevin},
