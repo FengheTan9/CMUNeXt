@@ -57,6 +57,7 @@ Please put the [BUSI](https://www.kaggle.com/aryashah2k/breast-ultrasound-images
 
 - GPU: NVIDIA GeForce RTX4090 GPU
 - Pytorch: 1.13.0 cuda 11.7
+- Python: 3.10
 - cudatoolkit: 11.7.1
 - scikit-learn: 1.0.2
 - albumentations: 1.2.0
